@@ -1,6 +1,6 @@
 var _currentThumb = -1;
 var _currentSection;
-var isTouch = false;
+var _isTouch = false;
 
 $(document).ready( function(){
 
@@ -30,7 +30,7 @@ function initSite() {
 	} );
 	
 	$("#light_box").click( function(e) {closeBox(e.target)} );
-	if (!isTouch ) $(".projectThumb").mouseenter( function() { onOverThumb( $(this) ) } );
+	if (!_isTouch ) $(".projectThumb").mouseenter( function() { onOverThumb( $(this) ) } );
 	$(".projectThumb").mouseleave( function() { onOutThumb( $(this) ) } );
 	$(".projectThumb").click( function() { onClickThumb( $(this) ) } );
 	$("#chris_gortz").click(function() { navigateToSection( "main" ); } );
@@ -81,11 +81,11 @@ function openFlashBox( $file, $width, $height ) {
 		id:"flashContent"
 	};
 	
-	if ( !isTouch ) $("#flashContent").html( "" ); 
+	if ( !_isTouch ) $("#flashContent").html( "" ); 
 		$("#light_box").animate( {opacity:1.0}, 500, function() { 
 		$("#flashContent").css( "display", "block" );
 		$("#imageContent").css( "display", "none" );
-		if( !isTouch ) {
+		if( !_isTouch ) {
 			$("#light_box_content").css( "background-color", "transparent" );	
 			$("#light_box_content").css( { width:$width+"px", height:$height+"px"} );
 			swfobject.embedSWF( $file, "flashContent", $width, $height, "10.0.0", null, flashvars, params, attributes);
@@ -209,7 +209,7 @@ function onClickThumb( $thumb ) {
 		} else if ( $t == "image" ) {
 			openImageBox( $d.children(".itemURL").html(), $d.children(".itemWidth").html(), $d.children(".itemHeight").html()  )
 		} else {
-			if( isTouch && $t == "externalFlash" ) {
+			if( _isTouch && $t == "externalFlash" ) {
 				openFlashBox();
 			} else {
 				window.open( $d.children(".itemURL").html(), "_blank" );
