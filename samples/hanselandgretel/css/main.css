@@ -1,0 +1,358 @@
+.hidden { display: none !important; visibility: hidden; }
+
+
+
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+html, body{
+	width:100%; 
+	height: 100%;
+	background-color: #000000;
+	color: #999999;
+	font: 10px/10px 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+	display: block;
+}
+
+a, img{
+	border: none;
+}
+
+#preloader_layer {
+	position: absolute; 
+	width: 100%;
+	height: 100%;
+	min-width: 740px;
+	margin: 0;
+	z-index: 200;
+}
+
+#preloader {
+	margin-left: auto;
+	margin-right: auto;
+	/*padding-top: 48px;*/
+	width: 122px;
+	height: 105px;
+	text-align: center;
+	font: 19px/19px 'Times', 'Arial', sans-serif;
+	color: #000;
+	background-image: url(../images/preloader.jpg);
+}
+
+
+#page_wrapper{
+	width: 100%;
+	height: 100%;
+	min-width: 740px;
+	top: 0px;
+	position: absolute;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.0;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: block;
+}
+
+#title_treatment {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title_treatment img {
+	width: 350px;
+}
+
+#player_container {
+	position: relative;
+	display: block;
+	/*background-image: url(../images/vid_placeholder.png); */
+	background-repeat: no-repeat;
+	/*width: 1168px;
+	height: 673px; */
+	margin-top: 0px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+
+#player {
+	position: absolute;
+	background: #000;
+	/*width: 1122px;
+	height: 627px;
+	margin-top: 23px;
+	margin-left: 23px; */
+	text-align: left;
+}
+
+#release_date {
+	/*margin-top: -84px;*/
+}
+
+
+/* ------ Site Sharing -------- */
+
+#sharing{
+	position: relative;
+	width: 370px;
+	height: 30px;
+	margin-top: 14px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	z-index: 99;
+	text-align: left;
+	display: block;
+	overflow: visible;
+	background-color: transparent;
+	
+}
+
+.social {
+	float: left;
+	margin: 0 3px 0 0;
+}
+
+#twitter-tweet {
+	width: 56px;
+}
+
+
+
+
+
+
+/* ------ Video Sharing ------ */
+
+#share-layer {
+  margin-left: auto;
+  margin-right: auto;
+  /*position: relative;*/
+  display: block;
+  text-align: right;
+  /*overflow: hidden;*/
+}
+
+#share {
+  position: absolute;
+  margin-top: 0px;
+  width: 191px;
+  height: 94px;
+  right: 14px;
+  bottom: 14px;
+  display: block;
+  text-align: left;
+  background: transparent;
+}
+
+#box {
+  width: 191px;
+  height: 94px;
+  position: relative;
+  margin-right: 0px;
+  margin-top: 32px;
+  background: url('../images/share-box.png') no-repeat;
+  /* visibility: hidden; */
+}
+
+
+ #box > #form {
+  position: absolute;
+    top: 41px;
+    left: 14px;
+}
+
+#box > #form > #shareInput {
+  width: 112px;
+  height: 10px;
+  margin-right: 5px;
+  padding: 4px;
+  float: left;
+  font: 700 10px/10px 'arial',sans-serif;
+  color: #000;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#box > #form > #video_share_facebook  >#shareFb {
+	opacity: 0.0;
+	position: relative;
+	margin: 0px;
+	width: 18px;
+	height: 18px;
+	display: block;
+}
+
+#box > #form > #video_share_twitter > #shareTw {
+	opacity: 0.0;
+	position: relative;
+	margin: 0px;
+	width: 18px;
+	height: 18px;
+	display: block;
+}
+
+#video_share_facebook {
+	position: absolute;
+	display: block;
+	margin-left: 125px;
+	width: 18px;
+	height: 18px;
+	background-image: url(../images/vshare_facebook.png);
+}
+
+#video_share_twitter {
+	position: absolute;
+	display: block;
+	margin-left: 147px;
+	width: 18px;
+	height: 18px;
+	background-image: url(../images/vshare_twitter.png);
+}
+
+
+
+
+
+
+/* ------ Footer -------- */
+
+#legalfooterContainer{
+	position: absolute;
+	width:100%;
+	min-width: 700;
+	/*text-align: center;*/
+	bottom: 0px;
+	background: transparent;
+	overflow: hidden;
+}
+
+
+#linkContainer{
+	position:relative;
+	width: 1168px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#legalLinksLeft{
+/*	visibility: hidden;*/
+	position: relative;
+	text-align: left;
+	width: 250px;
+	margin-left: 18px;
+	margin-top:12px;
+}
+
+#internationalImages{
+/*	visibility: hidden;*/
+	width: 250px;
+	text-align: left;
+	margin-left: 270px;
+	margin-top:-11px;
+}
+
+#legalLinksRight{
+	text-align: left;
+	margin-left: 535px;
+	margin-top:-40px;
+	/*
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fff;
+	*/
+}
+
+#ratingBlock{
+	text-align: left;
+	margin-left: 1036px;
+	margin-top:-46px;
+}
+
+.linkContainerText{
+	font-size:11px;color:#4d4d4d;text-decoration:none;
+	font-weight: normal;
+	line-height: 1.4;
+}
+
+
+.linkContainerText a{
+	font-size:11px;color:#4d4d4d;text-decoration:none;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.linkContainerText a:hover{
+	font-size:11px;color:#fd0d0b;text-decoration:none;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+
+.linkContainer a:last-child{ margin-right: 0px; }
+
+#bill-wrapper{
+	
+	width: 100%;
+	position: absolute;
+	height: 124px;
+	left:0px;
+	padding: 0px;
+	background: #000;
+	border-top: 1px solid #7f0902;
+	border-bottom: black;
+	z-index: 100;
+	text-align: center;
+}
+
+#bill{
+	width: 629px;
+	height: 124px;
+	padding: 0;
+	margin-top: -1px;;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	display: block;
+}
+
+#bill_close{
+	position: absolute;
+	margin-top: 1px;
+	right: 0px;
+	z-index: 95;
+}
+
+#bill_image{
+	position: absolute;
+	margin-top: 1px;
+}
+
+
+
+/*--- SEO text ---*/
+#endText{
+	position: fixed;
+	width: 100%;
+	margin-top: 400px;
+	text-align: center;
+	color: #222;
+	z-index: -1;
+}
+
+
+
+

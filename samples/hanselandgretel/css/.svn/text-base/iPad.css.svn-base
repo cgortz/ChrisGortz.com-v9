@@ -1,0 +1,734 @@
+/* Basic Page Setup ----------- */
+
+*{
+	padding:0px;
+
+}
+
+html, body{
+	margin: 0px;
+	position: absolute;
+	width:980px; 
+	background: #000000;
+	color: #999999;
+	font: 10px/10px 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+}
+
+
+a, img{
+	border: none;
+	/*opacity: 0.0;*/
+}
+
+
+#preloader {
+	margin-left: auto;
+	margin-right: auto;
+	/*padding-top: 48px;*/
+	width: 122px;
+	height: 105px;
+	text-align: center;
+	font: 19px/19px 'Times', 'Arial', sans-serif;
+	color: #000;
+	background-image: url(../images/preloader.jpg);
+}
+
+
+
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+		#preloader_layer {
+			position: absolute; 
+			width: 100%;
+			height: 1160px;
+			margin: 0;
+			z-index: 200;
+		}
+
+		#page_wrapper{
+			margin: 0px;
+			width: 100%;
+			height: 1160px;
+			position: absolute;
+			text-align: center;
+			background: url(../images/backgroundi.jpg) 0 0 no-repeat;
+			background-size: cover; 
+			opacity: 0.0;
+		}
+
+
+		/*----- Page Sharing -----*/
+		
+		#sharing{
+			position: relative;
+			width: 370px;
+			height: 30px;
+			margin-top: 895px;
+			margin-left: auto;
+			margin-right: auto;
+			z-index: 99;
+			text-align: left;
+			display: block;
+			overflow: visible;
+			background-color: transparent;
+			
+		}
+		
+		.social {
+		margin-left: 4px;
+			float: left;
+		}
+		
+		#twitter-tweet {
+			width: 56px;
+		}
+		
+		
+		
+		
+		/*------ Main Content Area ------*/
+		
+		#content {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+		
+		
+		#title_treatment {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+		
+			
+		#title_image {
+			width: 483px;
+			height: 216px;
+		}
+		
+		#player_container {
+			position: relative;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(../images/vid_placeholder.png);
+			background-size: 100%;
+			width: 876px;
+			height: 505px;
+		}
+		
+		#player {
+			position: absolute;
+			margin-left: 18px;
+			margin-top: 18px;
+			width: 839px;
+			height: 468px;
+		}
+		
+		#player iframe {
+			position:relative;
+			margin-left: 0x;
+			margin-top: 0px;
+			width: 839px;
+			height: 468px;
+		}
+		
+		#release_date {
+			/*margin-top: -80px;*/
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		
+		
+		
+		
+		
+		/* ------ Video Sharing ------ */
+		
+		#share-layer {
+			position: absolute;
+		 	width: 839px;
+		 	height: 94px;
+			margin-top: 487px;
+		 	margin-left: auto;
+		 	margin-right: auto;
+		 	display: block;
+			text-align: right;
+			overflow: hidden;
+			z-index: 101;
+		  /*display: none !important;*/
+		}
+		
+		#share {
+		  position: absolute;
+		  width: 191px;
+		  height: 94px;
+		  margin-top: 0px;
+		  right: 10px;
+		  display: block;
+		  text-align: left;
+		  background: transparent;
+		}
+		
+		#box {
+		  width: 191px;
+		  height: 94px;
+		  position: absolute;
+		  margin-top: -60px;
+		  margin-right: 0px;
+		  background: url('../images/share-box.png') no-repeat;
+		}
+		
+		 #box > #form {
+		 	position: absolute;
+		    top: 41px;
+		    left: 14px;
+		}
+		
+		#box > #form > #shareInput {
+		  width: 112px;
+		  height: 10px;
+		  margin-right: 5px;
+		  padding: 4px;
+		  float: left;
+		  font: 700 10px/10px 'arial',sans-serif;
+		  color: #000;
+		  border: none;
+		  background: none;
+		  cursor: pointer;
+		}
+		
+		#box > #form > #video_share_facebook  >#shareFb {
+			opacity: 0.0;
+			position: relative;
+			margin: 0px;
+			width: 18px;
+			height: 18px;
+			display: block;
+		}
+		
+		#box > #form > #video_share_twitter > #shareTw {
+			opacity: 0.0;
+			position: relative;
+			margin: 0px;
+			width: 18px;
+			height: 18px;
+			display: block;
+		}
+		
+		#video_share_facebook {
+			position: absolute;
+			display: block;
+			margin-left: 125px;
+			width: 18px;
+			height: 18px;
+			background-image: url(../images/vshare_facebook.png);
+		}
+		
+		#video_share_twitter {
+			position: absolute;
+			display: block;
+			margin-left: 147px;
+			width: 18px;
+			height: 18px;
+			background-image: url(../images/vshare_twitter.png);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/* ------------ Footer --------------- */
+		
+		#legalfooterContainer{
+			position: absolute;
+			width:100%;
+			text-align: center;
+			top: 1040px;
+			background: transparent;
+		}
+		
+		#linkContainer{
+			position:relative;
+			width: 980px;
+			height: 36px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			/*
+			border-style: solid;
+			border-width: 1px;
+			background-color: #fff;
+			*/
+		}
+		
+		#legalLinksLeft{
+		/*	visibility: hidden;*/
+			position: relative;
+			text-align: left;
+			margin-left: 18px;
+			margin-top:12px;
+		}
+		
+		#internationalImages{
+		/*	visibility: hidden;*/
+			text-align: left;
+			margin-left: 310px;
+			margin-top:-11px;
+		}
+		
+		#legalLinksRight{
+			text-align: left;
+			margin-left: 475px;
+			margin-top:-25px;
+		}
+		
+		#ratingBlock{
+			text-align: left;
+			margin-left: 435px;
+			margin-top:20px;
+		}
+		
+		.linkContainerText{
+			font-size:11px;color:#4d4d4d;text-decoration:none;
+			font-weight: normal;
+		}
+		
+		
+		.linkContainerText a{
+			font-size:11px;color:#4d4d4d;text-decoration:none;
+			font-weight: bold;
+			margin-left: 5px;
+		
+		}
+		
+		.linkContainer a:last-child{ margin-right: 0px; }
+		
+		
+		
+		
+		/*------------- Billing Rollover -------------*/
+		
+		#bill-wrapper{
+			position: absolute;
+			margin: 0px;
+			width: 100%; 
+			height: 126;
+			left:0px;
+			top: 1036px;
+			border-top: 1px solid #7f0902;
+			border-bottom: none;
+			z-index: 100;
+			text-align: center;
+			background: #000;
+			display: block;
+		}
+		
+		#bill{
+			width: 629px;
+			height: 124px;
+			padding: 0;
+			margin-top: -1px;;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+			display: block;
+		}
+		
+		#bill_close{
+			position: absolute;
+			margin-top: 2px;
+			right: 0px;
+			z-index: 95;
+		}
+		
+		#bill_image{
+			position: absolute;
+			margin-top: 1px;
+		}
+		
+		
+		
+		/*--- SEO text ---*/
+		#endText{
+			position: fixed;
+			width: 100%;
+			margin-top: 400px;
+			/* visibility: hidden; */
+			/*bottom: -0px; */
+			text-align: center;
+			color: #222;
+			z-index: -1;
+		}
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+		#preloader_layer {
+			position: absolute; 
+			width: 100%;
+			height: 800px;
+			margin: 0;
+			z-index: 200;
+		}
+
+		#page_wrapper{
+			margin: 0px;
+			width: 100%;
+			height: 800px;
+			position: absolute;
+			text-align: center;
+			background: url(../images/backgroundi.jpg) 0 0 no-repeat;
+			background-size: cover; 
+			opacity: 0.0;
+		}
+
+
+		/*----- Page Sharing -----*/
+		
+		#sharing{
+			position: relative;
+			width: 370px;
+			height: 30px;
+			margin-top: 589px;
+			margin-left: auto;
+			margin-right: auto;
+			z-index: 99;
+			text-align: left;
+			display: block;
+			overflow: visible;
+			background-color: transparent;
+			
+		}
+		
+		.social {
+		margin-left: 4px;
+			float: left;
+		}
+		
+		#twitter-tweet {
+			width: 56px;
+		}
+		
+		
+		
+		
+		/*------ Main Content Area ------*/
+		
+		#content {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+		
+		
+		#title_treatment {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -5px;
+		}
+		
+			
+		#title_image {
+			width: 287px;
+			height: 128px;
+		}
+		
+		#player_container {
+			position: relative;
+			display: block;
+			margin-top: -10px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(../images/vid_placeholder.png);
+			background-size: 100%;
+			width: 694px;
+			height: 400px;
+		}
+		
+		#player {
+			position: absolute;
+			width: 664px;
+			height: 370px;
+			margin-top: 14px;
+			margin-left: 15px;
+		}
+		
+		#player iframe {
+			position:relative;
+			margin-left: 0x;
+			margin-top: 0px;
+			width: 664px;
+			height: 370px;
+		}
+		
+		#release_date {
+			margin-top: -10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		
+		
+		
+		
+		
+		/* ------ Video Sharing ------ */
+		
+		#share-layer {
+			position: absolute;
+		 	width: 694px;
+		 	height: 94px;
+			margin-top: 386px;
+		 	margin-left: auto;
+		 	margin-right: auto;
+		 	display: block;
+			text-align: right;
+			overflow: hidden;
+			z-index: 101;
+		  /*display: none !important;*/
+		}
+		
+		#share {
+		  position: absolute;
+		  width: 191px;
+		  height: 94px;
+		  margin-top: 0px;
+		  right: 12px;
+		  display: block;
+		  text-align: left;
+		  background: transparent;
+		}
+		
+		#box {
+		  width: 191px;
+		  height: 94px;
+		  position: absolute;
+		  margin-top: -60px;
+		  margin-right: 0px;
+		  background: url('../images/share-box.png') no-repeat;
+		}
+		
+		 #box > #form {
+		 	position: absolute;
+		    top: 41px;
+		    left: 14px;
+		}
+		
+		#box > #form > #shareInput {
+		  width: 112px;
+		  height: 10px;
+		  margin-right: 5px;
+		  padding: 4px;
+		  float: left;
+		  font: 700 10px/10px 'arial',sans-serif;
+		  color: #000;
+		  border: none;
+		  background: none;
+		  cursor: pointer;
+		}
+		
+		#box > #form > #video_share_facebook  >#shareFb {
+			opacity: 0.0;
+			position: relative;
+			margin: 0px;
+			width: 18px;
+			height: 18px;
+			display: block;
+		}
+		
+		#box > #form > #video_share_twitter > #shareTw {
+			opacity: 0.0;
+			position: relative;
+			margin: 0px;
+			width: 18px;
+			height: 18px;
+			display: block;
+		}
+		
+		#video_share_facebook {
+			position: absolute;
+			display: block;
+			margin-left: 125px;
+			width: 18px;
+			height: 18px;
+			background-image: url(../images/vshare_facebook.png);
+		}
+		
+		#video_share_twitter {
+			position: absolute;
+			display: block;
+			margin-left: 147px;
+			width: 18px;
+			height: 18px;
+			background-image: url(../images/vshare_twitter.png);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/* ------------ Footer --------------- */
+		
+		#legalfooterContainer{
+			position: absolute;
+			width:100%;
+			text-align: center;
+			top: 680px;
+			background: transparent;
+		}
+		
+		#linkContainer{
+			position:relative;
+			width: 980px;
+			height: 36px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			/*
+			border-style: solid;
+			border-width: 1px;
+			background-color: #fff;
+			*/
+		}
+		
+		#legalLinksLeft{
+		/*	visibility: hidden;*/
+			position: relative;
+			text-align: left;
+			margin-left: 18px;
+			margin-top:12px;
+		}
+		
+		#internationalImages{
+		/*	visibility: hidden;*/
+			text-align: left;
+			margin-left: 310px;
+			margin-top:-11px;
+		}
+		
+		#legalLinksRight{
+			text-align: left;
+			margin-left: 475px;
+			margin-top:-25px;
+		}
+		
+		#ratingBlock{
+			text-align: left;
+			margin-left: 435px;
+			margin-top:20px;
+		}
+		
+		.linkContainerText{
+			font-size:11px;color:#4d4d4d;text-decoration:none;
+			font-weight: normal;
+		}
+		
+		
+		.linkContainerText a{
+			font-size:11px;color:#4d4d4d;text-decoration:none;
+			font-weight: bold;
+			margin-left: 5px;
+		
+		}
+		
+		.linkContainer a:last-child{ margin-right: 0px; }
+		
+		
+		
+		
+		/*------------- Billing Rollover -------------*/
+		
+		#bill-wrapper{
+			position: absolute;
+			margin: 0px;
+			width: 100%; 
+			height: 126;
+			left:0px;
+			top: 676px;
+			border-top: 1px solid #7f0902;
+			border-bottom: none;
+			z-index: 100;
+			text-align: center;
+			background: #000;
+		}
+		
+		#bill{
+			width: 629px;
+			height: 124px;
+			padding: 0;
+			margin-top: -1px;;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+			display: block;
+		}
+		
+		#bill_close{
+			position: absolute;
+			margin-top: 1px;
+			right: 0px;
+			z-index: 95;
+		}
+		
+		#bill_image{
+			position: absolute;
+			margin-top: 1px;
+		}
+		
+		
+		
+		/*--- SEO text ---*/
+		#endText{
+			position: fixed;
+			width: 100%;
+			margin-top: 400px;
+			/* visibility: hidden; */
+			/*bottom: -0px; */
+			text-align: center;
+			color: #222;
+			z-index: -1;
+		}
+
+
+}
+

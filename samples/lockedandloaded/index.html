@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Lawless - Locked & Loaded</title>
+
+
+		<!--FB OG-->
+		<meta property="og:title" content="Lawless - Locked & Loaded" />
+		<meta property="og:image" content="thumb.jpg" />
+		<meta property="og:type" content="movie/business" />
+		<meta property="og:url" content="http://dev.evoke.la/var/WeinsteinCo/Lawless/TommyGun/" />
+		<meta property="og:site_name" content="Lawless - Locked & Loaded" />
+
+		<style type="text/css">
+			body { text-align: center; margin: 0; padding: 0; background: #000000}
+			#flashContent { margin: 0 auto; width: 100%; background:#000000 }
+		</style>
+
+		
+		<script type="text/javascript" src="media/js/swfobject.js"></script>
+		<!-- <script src="http://connect.facebook.net/en_US/all.js"></script> -->
+
+		<script type="text/javascript">
+		
+		var flashvars = { 
+			gameSWF:"media/swf/TommyGun.swf",
+			gameXML:"media/xml/tommyGun.xml",
+			preloaderSWF:"media/swf/preloader.swf",
+		};
+				
+			var params = {
+				menu:"false",
+				base:"",
+				allowScriptAccess:"always",
+				allowFullScreen:"true",
+				wmode:"direct"
+			};
+
+			var attributes = {
+				id:"flashcontent",
+				name:"flashcontent"
+			};
+		
+            swfobject.embedSWF('media/swf/standalone_preloader.swf', 'flashcontent', '100%', '100%', '10.0.0', 'data/swf/expressinstall.swf', flashvars, params, attributes);
+        </script>
+
+	<head>
+    <body>
+        <div  id="flashcontent">
+            <p>In order to view this page you need Flash Player support.</p>
+            <p>
+                <a href="http://www.adobe.com/go/getflashplayer">
+                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                </a>
+            </p>
+        </div>
+        <div id="fb-root"></div>
+        
+	</body>
+</html>

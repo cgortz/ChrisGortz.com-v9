@@ -1,0 +1,117 @@
+<xml>
+	
+	<work>
+
+		<item type="external" width="0" height="0">
+			<name><![CDATA[<i>Weather Watcher</i>]]></name>
+			<description><![CDATA[Here's a puzzle game I did for <i>Cloudy With a Chance of Meatballs 2</i>. The client needed something that would work in older browsers, so I built it without any modern HTML5 elements. What you see here is just good old-fashioned JavaScript animation.]]></description>
+			<thumb>img/thumbs/weatherwatcher.jpg</thumb>
+			<link target="_blank">samples/weatherwatcher/</link>
+		</item>
+		
+		<item type="external" width="0" height="0">
+			<name><![CDATA[<i>Flint's Invention Challenge</i>]]></name>
+			<description><![CDATA[Here's another <i>Cloudy With a Chance of Meatballs 2</i> game. Once again, I built it to work in older browsers without any modern HTML5 elements. The great part is that I've witnessed my own nephews having fun with it even though it was put together pretty quickly with what I assume were the last few bucks in the client's budget.]]></description>
+			<thumb>img/thumbs/inventionchallenge.jpg</thumb>
+			<link target="_blank">samples/inventionchallenge/</link>
+		</item>
+
+		<item type="flash" width="728" height="270">
+			<name><![CDATA[<i>The Great Gatsby</i> - banner campaign]]></name>
+			<description><![CDATA["But have you done anything... recent?" Yep, still doing occasional banners after all these years. Lord knows I've got the experience for it.]]></description>
+			<thumb>img/thumbs/gatsby.jpg</thumb>
+			<link target="_blank">samples/gatsby/main.swf</link>
+		</item>
+
+		<item type="external" width="0" height="0">
+			<name><![CDATA[<i>The Host</i> – official site]]></name>
+			<description><![CDATA[It's big! It's colorful! It's filled with moving images and sound! It's <i>The Host</i> and it's available on home video. I built the site for this movie.]]></description>
+			<thumb>img/thumbs/host.jpg</thumb>
+			<link target="_blank">http://www.thehostthefilm.com</link>
+		</item>
+
+		<item type="image" width="670" height="860">
+			<name><![CDATA[<i>Seven Psychopaths</i> – mobile site]]></name>
+			<description><![CDATA[This is the opposite of <i>The Host</i>. I built the mobile site, but not the desktop version. It’s kind of fun to flick through since it navigates with swipe gestures kind of like a native mobile app.]]></description>
+			<thumb>img/thumbs/sevenpsychopaths.jpg</thumb>
+			<link target="_blank">samples/sevenpsychopaths.jpg</link>
+		</item>
+		
+		<item type="external" width="0" height="0">
+			<name><![CDATA[<i>Hansel and Gretel</i> - teaser page]]></name>
+			<description><![CDATA[There's not a lot to say about this teaser page. It's atually the second of two teaser sites that went up before the official site launched. It's pretty simple stuff.]]></description>
+			<thumb>img/thumbs/hansel.jpg</thumb>
+			<link target="_blank">samples/hanselandgretel/</link>
+		</item>
+		
+		<item type="externalFlash" width="0" height="0">
+			<name><![CDATA[<i>Jack Reacher</i> - Think Like Reacher]]></name>
+			<description><![CDATA[This is an international site for Jack Reacher, meaning it can be customized for different languages by updating an XML file. I built the site and one of the three games it contains (the 'Agility' game). I'm pretty happy with all of the shaky-cam effects and 3D text transitions, but alas, this kind of stuff can only be done in Flash.]]></description>
+			<thumb>img/thumbs/reacher.jpg</thumb>
+			<link target="_blank">samples/thinklikereacher/</link>
+		</item>
+
+		<item type="externalFlash" width="0" height="0">
+			<name><![CDATA[<i>Lawless</i> - Flash game]]></name>
+			<description><![CDATA[This project is a blast from the past. It's a giant full-browser Flash game packed with sound effects, animation, complicated game mechanics -- you name it! They even did video shoots of actors playing the bad guys. I had tons of fun building it.]]></description>
+			<thumb>img/thumbs/lockedandloaded.jpg</thumb>
+			<link target="_blank">samples/lockedandloaded/</link>
+		</item>	
+		
+		<item type="external" width="0" height="0">
+			<name><![CDATA[<i>Prometheus</i> - HTML 5 game exploration]]></name>
+			<description><![CDATA[The site for the movie <i>Prometheus</i> had a series of minigames. In the development phase, I built this simple 2D demo of a proposed game that would have worked across all modern browsers using HTML 5. For business reasons, the final version was built with a technology that only works in Internet Explorer.]]></description>
+			<thumb>img/thumbs/htmlgame.jpg</thumb>
+			<link target="_blank">samples/html5game/</link>
+		</item>	
+
+		<item type="flash" width="1000" height="602">
+			<name><![CDATA[<i>Journey 2</i> - Flash game]]></name>
+			<description><![CDATA[Everyone who worked on this game was a little shocked by how fun it turned out. The concept is completly preposterous, and the whole project was a two-week rush job. Even so, I constantly refined the difficulty and the randomness as I worked. In the end, you always feel like you can score a few more points if you just play it <i>one more time.</i>]]></description>
+			<thumb>img/thumbs/journey2.jpg</thumb>
+			<link target="_blank">samples/journey2/preloader.swf</link>
+		</item>	
+
+		<item type="flash" width="300" height="250">
+			<name><![CDATA[<i>Mirror Mirror</i> - banner campaign]]></name>
+			<description><![CDATA[Standard banners. I hope you like the way Julia Roberts bounces up and down when the dwarfs hit her with their heads. The client also wanted it to snow, which was fun for me. The snow is actually a less-fantastical version of the magic dust I made for other versions of the ad.]]></description>
+			<thumb>img/thumbs/mirrormirror.jpg</thumb>
+			<link target="_blank">samples/mirrorMirror.swf</link>
+		</item>		
+
+		<item type="flash" width="970" height="450">
+			<name><![CDATA[<i>Volkswagen Passat</i> - banner campaign]]></name>
+			<description><![CDATA[The challenge here was to take a still image of a car and make it look like it's cruising down a road surrounded by all kinds of moving graphics and keeping the file size uner 140k.]]></description>
+			<thumb>img/thumbs/passat.jpg</thumb>
+			<link target="_blank">samples/passat.swf</link>
+		</item>
+
+		<item type="externalFlash" width="0" height="0">
+			<name><![CDATA[<i>10,000 BC</i> - Flash game]]></name>
+			<description><![CDATA[This one is ancient. It was by far the most complicated thing I had ever done at the time. The wierd thing is there were no comps. I just holed up a dark office and emerged with a game a month later and they paid us for it. When I was almost done I got help with the text screens from a good designer, but that's it.]]></description>
+			<thumb>img/thumbs/10kbc.jpg</thumb>
+			<link target="_blank">samples/10kbc</link>
+		</item>
+
+		<item type="externalFlash" width="0" height="0">
+			<name><![CDATA[<i>Up In The Air</i> - official site (Flash)]]></name>
+			<description><![CDATA[I did half the work on this site. There are lots of snappy things popping in and out, modularly-designed components pulling in dynamic content, etc. It was great to collaborate with another developer. But the real reason it's included here is just to Clooney up my portfolio.]]></description>
+			<thumb>img/thumbs/uita.jpg</thumb>
+			<link target="_blank">samples/uita</link>
+		</item>
+		
+		<item type="externalFlash" width="0" height="0">
+			<name><![CDATA[<i>Prometheus</i> - 3D Flash game exploration]]></name>
+			<description><![CDATA[I began building this game for the Prometheus site, but work stopped when it was decided that the game would be built exclusively for Internet Explorer without Flash. In the end, it was only used as reference for a team that attempted to rebuild it using SVG.]]></description>
+			<thumb>img/thumbs/3dflashgame.jpg</thumb>
+			<link target="_blank">samples/3dflashgame/</link>
+		</item>	
+		
+	</work>
+	
+	<about>
+		<head>About Me</head>
+		<body><![CDATA[I'm a front-end developer who works with HTML, CSS, JavaScript and PHP. I've also done a lot of work in ActionScript and a little bit in iOS. Most of my experience has been in the entertainment industry, where I've built websites, games, productivity applications, social apps, banners and a few other items that defy categorization. The work I do incorporates a variety of features like sound, video, animation, social integration, data parsing... whatever comes up. If you've got a new challenge for me, I'd like to hear about it!]]></body>
+	</about>
+	
+</xml>

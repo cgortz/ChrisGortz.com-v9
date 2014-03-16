@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+
+	<tutorials>
+		<continueText><![CDATA[PRESS ANY KEY TO CONTINUE]]></continueText>
+		<accuracy>
+			<head><![CDATA[EASE UP ON THAT TRIGGER!]]></head>
+			<text><![CDATA[When you hold down the trigger your accuracy suffers. Try aiming and using short bursts of shots.]]></text>
+		</accuracy>
+		<moonshine>
+			<head><![CDATA[SHOOT THEM THERE MOONSHINE]]></head>
+			<text><![CDATA[When the bottles appear, shoot them as quick as you can for bonus and achievement points!]]></text>
+		</moonshine>
+		<pause>
+			<head><![CDATA[GAME PAUSED]]></head>
+		</pause>
+	</tutorials>
+
+	<gameover>
+		<results>
+			<wintext><![CDATA[YOU'VE EVADED THE LAW — THIS TIME.]]></wintext>
+			<losetext><![CDATA[YOUR BOOTLEGGING DAYS ARE OVER.]]></losetext>
+		</results>
+	</gameover>	
+	
+	<sharing>
+		<facebook id="235679789883133" language="en_US">
+			<wincloseURL><![CDATA[http://dev.lawless-film.com/_mainsite120702/winclose.html]]></wincloseURL>
+			<absoluteurl><![CDATA[http://dev.lawless-film.com/_mainsite120702/%23/games]]></absoluteurl>
+			<head><![CDATA[Lawless - Locked & Loaded]]></head>
+			<body>
+				<achievement><![CDATA[I just scored [var score] points and got the [var achievement] achievement playing Locked & Loaded!]]></achievement>
+				<noachievement><![CDATA[I just scored [var score] points playing Locked & Loaded!]]></noachievement>
+			</body>
+		</facebook>
+		<twitter url="http://twitter.com/intent/tweet?text=">
+			<body>
+				<achievement><![CDATA[I just scored [var score] points and got the [var achievement] achievement playing Locked & Loaded!]]></achievement>
+				<noachievement><![CDATA[I just scored [var score] points playing Locked & Loaded!]]></noachievement>
+			</body>
+		</twitter>
+		<achievementnames>
+			<achievement image="http://dev.lawless-film.com/_mainsite120702/media/images/tommyGunMedals/noMedal.jpg"><![CDATA[]]></achievement>
+			<achievement image="http://dev.lawless-film.com/_mainsite120702/media/images/tommyGunMedals/moonshine.jpg"><![CDATA[moonshine]]></achievement>
+			<achievement image="http://dev.lawless-film.com/_mainsite120702/media/images/tommyGunMedals/accuracy.jpg"><![CDATA[accuracy]]></achievement>
+			<achievement image="http://dev.lawless-film.com/_mainsite120702/media/images/tommyGunMedals/sharpshooter.jpg"><![CDATA[sharpshooter]]></achievement>
+			<achievement image="http://dev.lawless-film.com/_mainsite120702/media/images/tommyGunMedals/quickdraw.jpg">><![CDATA[qickdraw]]></achievement>
+		</achievementnames>
+	</sharing>
+
+
+
+</data>

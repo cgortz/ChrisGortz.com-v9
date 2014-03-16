@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Email Registration Form: Sorry</title>
+
+<meta name="viewport" content="width=520">
+
+<style>
+body{
+	background:#000;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+	
+#container {
+	text-align:center;
+	padding-top:100px;
+	}
+	
+#wrapper {
+	margin:0 auto;
+	width:500px;
+	}
+	
+a {
+	color:#FF1100;
+	}
+
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31835-184']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wrapper">
+<h1>Sorry, you are not eligible to register at this time.</h1>
+<p><a href="http://www.paramountmovies.com/legal/privacypolicy.php?bgcolor=000000&amp;fontcolor=666666&amp;linkcolor=666666">See Privacy Policy For More Information</a></p>
+</div>
+</div>
+
+</body>
+</html>

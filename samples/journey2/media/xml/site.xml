@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xmldata>
+    <!--DEFINE ASSET SWF TO LOAD
+     FOR TEASER CONTAINS ALL VISUAL ASSETS
+     FOR MAIN SITE CONTAINS GLOBAL ASSETS "HEADER FOOTER ETC.-->
+    <assetsswf path="samples/journey2/Journey2Game.swf"/>
+
+	<screens>
+		<title>
+			<logo><![CDATA[samples/journey2/media/images/logo.png]]></logo>
+			<startbutton embedFont="true"> <![CDATA[START GAME]]></startbutton>
+		</title>
+		<game>
+			<bonuslabel embedFont="true"><![CDATA[POINTS]]></bonuslabel>
+		</game>
+		<instructions>
+			<head embedFont="true"><![CDATA[HOW TO PLAY]]></head>
+			<instructiona embedFont="true"> <![CDATA[Use your keyboard arrows to move Gabato left and right. Line him up to catch the gold nuggets and score points but watch out for the lava!]]></instructiona>
+			<instructionb embedFont="true"> <![CDATA[Press P to toggle pausing gameplay.]]></instructionb>
+			<playbutton embedFont="true"> <![CDATA[RESUME GAME]]></playbutton>
+			<bottomtab embedFont="true"><![CDATA[INSTRUCTIONS]]></bottomtab>
+		</instructions>
+		<end>
+			<head embedFont="true"><![CDATA[GOOD JOB!]]></head>
+			<scorelabel embedFont="true"><![CDATA[FINAL SCORE:]]></scorelabel>
+			<playbutton embedFont="true"><![CDATA[PLAY AGAIN]]></playbutton>
+			<sharebutton embedFont="true"><![CDATA[SHARE YOUR SCORE ]]></sharebutton>
+		</end>
+	</screens>
+    
+	<sharing enabled="true">
+		<facebook account="236690989708145" language="en_US"> 
+			<absoluteurl><![CDATA[http://staging.evoke.la/var/WB/Journey2/CatchTheGold]]></absoluteurl>
+			<head><![CDATA[Journey 2 - Catch The Gold]]></head>
+			<body><![CDATA[I just scored $ Points on the new Journey 2 game! How much gold can you help Gabato collect without getting hit by falling lava?]]></body>
+		</facebook>
+		<twitter url="http://twitter.com/intent/tweet?text=">
+			<body><![CDATA[Can you beat my score of $ points on the JOURNEY 2: THE MYSTERIOUS ISLAND - Catch the Gold game? #catchthegold bit.ly/ryPrbp]]></body>
+		</twitter>
+	</sharing>
+    
+
+    
+</xmldata>

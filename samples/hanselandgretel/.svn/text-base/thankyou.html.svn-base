@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Registration Form Template</title>
+
+<meta name="viewport" content="width=520">
+
+<!-- jQuery -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+	function closeRegistration(){
+		console.log( "closing?" );
+		window.close();
+	}
+</script>
+
+<!-- PP Registrion Form Standard Styles -->
+<style>
+
+body {
+	text-align: center;
+	font: 12px/12px 'Helvetica', 'Arial', sans-serif;
+	color: #666;
+	background-color: #000;
+}
+
+#words {
+	width: 100%;
+	text-align: center;
+	margin-top: 250px;
+}
+
+a {
+	text-decoration: none;
+	font: 12px/12px 'Helvetica', 'Arial', sans-serif;
+	color: #ff1100;
+}
+
+
+</style>
+
+<body>
+	<div id="words">
+		<h1>Thank You for Registering!</h1>
+		<a href="javascript:closeRegistration()">Close Window</a>
+	</div>
+</body>
+</html>
